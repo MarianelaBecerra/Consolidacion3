@@ -1,0 +1,265 @@
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+
+  nav {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  nav li {
+    display: block;
+    margin: 0;
+    width: 100%;
+  }
+
+  .contact-list {
+    float: none;
+    width: 100%;
+  }
+
+  #chat {
+    float: none;
+    width: 100%;
+  }
+
+  #chat-messages {
+    max-width: 100%;
+  }
+
+  .message {
+    margin-right: 20%;
+    font-size: 14px;
+  }
+
+  .contact-list h2 {
+    font-size: 16px;
+  }
+
+  .contact-list li img {
+    margin-right: 5px;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+}
+/* espacio */
+
+body{
+  background-color: #c4ffff;
+}
+
+
+nav {
+    background-color: #07b1fa;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  nav a {
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+  }
+  
+  nav a:hover {
+    background-color: #0932a4af;
+  }
+/* aca tendre My lista de contactos */
+
+
+.contact-list {
+  width: 200px;
+  background-color: #07b1fa;
+  padding: 10px;
+  box-sizing: border-box;
+  
+}
+
+
+.contact-list h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0 0 10px 0;
+}
+
+.contact-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-list li:hover {
+  background-color: #0932a4af;
+}
+
+.contact-list li img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.contact-list li span {
+  font-size: 14px;
+}
+
+
+/* acá tendre el css de my chat */
+
+.Padre {
+  text-align: right;
+}
+
+#chat {
+  background-color: #07b1fa;
+  padding: 20px;
+  border: px solid #21053e;
+}
+
+#chat-messages {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.message {
+  background-color: #2e729fc5;
+  padding: 10px;
+  margin-bottom: 11px;
+  border-radius: 100px;
+}
+
+#chat-form {
+  display: flex;
+  margin-top: 10px;
+}
+
+#chat-form input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #361212;
+  border-radius: 5px;
+}
+
+#chat-form button {
+  padding: 10px;
+  background-color: #617c11;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+#mensajeschat {
+  list-style-type: none;
+
+
+}
+
+
+/* idea */
+
+.contact-list {
+  float: left;
+  width: 20%; /* ajusta el ancho  */
+  
+}
+
+#chat {
+  float: right;
+  width: 60%; 
+  
+}
+
+#Formadechat{
+  float: right;
+  width: 20%;
+  clear: both;
+
+  padding: 10px;
+  background-color: #07b1fa;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* contacto */
+
+#perfil {
+  float: right;
+  width: 100%;
+
+}
+
+#perfil img {
+  width: 40%;
+  height: auto;
+  
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/*prueba*/
+
+#contenedor {
+  display: flex;
+  float: left;
+  width: 100%;
+  
+}
+
+#adjuntos {
+  width: 10%;
+
+}
+
+#adjunto {
+  display: block;
+  margin-bottom: 10px;
+
+  
+}
+
+
+.hora {
+  font-size: 0.8em;
+  margin-right: 5px;
+  color: rgb(198, 253, 0);
+}
+
+
